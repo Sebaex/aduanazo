@@ -47,7 +47,8 @@ function App() {
 
       <dialog ref={dialogRef} className="bg-[#363636] text-white p-6 rounded-[24px] backdrop:backdrop-blur-sm">
         <p className="text-l md:text-3xl mb-4" >Basicamente, sigue los calculos de esta foto que seguramente pocos conocen</p>
-        <img src={calculoImpuesto} alt="Calculo de Impuestos" className="p-2 mb-6" />
+        <img src={calculoImpuesto} alt="Calculo de Impuestos" className="p-2" />
+        <p className="italic mb-6">Nota: El IVA se aplica sobre el valor del producto + derecho aduanero</p>
         <p className="my-4">Fuente: <a className="text-blue-400" href="https://www.aduana.cl/cuando-debo-pagar-impuestos/aduana/2018-12-12/233227.html">Aduanas de Chile</a></p>
         <p><button className="bg-blue-700 rounded-md p-2 px-6" onClick={() => dialogRef.current.close()}>Entendible</button></p>
       </dialog>
