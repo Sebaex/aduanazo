@@ -39,7 +39,7 @@ function EstadoAduanero({valorProducto}){
                 <h1 className="bg-red-700 text-5xl p-8 font-semibold rounded-lg mb-4">Anda a prender velitas</h1>
                 <p className="text-xl">Y que no te lo retengan, mientras vamos a lo odioso, calculos:</p>
                 <section>
-                    <CalculoAduanas valorProducto={parseInt(valorProducto)}></CalculoAduanas>
+                    <CalculoAduanas valorProducto={parseFloat(valorProducto)}></CalculoAduanas>
                 </section>
             </div>
         </>
