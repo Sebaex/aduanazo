@@ -7,6 +7,7 @@ function EstadoAduanero({valorProducto}){
     if (!valorProducto) {
         return(
             <>
+            <p>Esperando algún valor.</p>
             </>
         )
     }

@@ -14,7 +14,7 @@ function CalculoAduanas({valorProducto}){
     }, [])
     
     return(
-        <div className="mt-6 text-2xl">
+        <div className="mt-8 text-2xl">
             <ul className="space-y-10">
               <li>Derecho aduanero: CLP {parseInt(derechoAduanero * valorDolar)}</li>
               <li>I.V.A: CLP {parseInt(iva * valorDolar)}</li>
